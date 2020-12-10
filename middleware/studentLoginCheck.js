@@ -25,6 +25,7 @@ module.exports = async (req, res, next) => {
         } 
         catch (error) {
             console.log(error.message);
+            return res.status(401).json({'status': false, 'message': 'Unauthorized'})
         }
     }
     else{
