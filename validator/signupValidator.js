@@ -1,7 +1,6 @@
 const {body} = require('express-validator');
 const { findLibrarian } = require('../models/Librarian');
 const { findStudent } = require('../models/Student');
-const {getUrl} = require('../utils/getUrl');
 
 module.exports = {
     signupValidator: [
