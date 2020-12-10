@@ -1,6 +1,9 @@
 {
   "name": "library_management_system_api",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.14.1"
+  },
   "description": "api for library management system",
   "main": "app.js",
   "scripts": {
@@ -21,8 +24,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
-  },
-  "engines": {
-    "node": "12.14.1"
   }
 }
