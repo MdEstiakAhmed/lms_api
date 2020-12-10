@@ -1,5 +1,5 @@
 const { Schema, model} = require('mongoose');
-const {find, insert} = require('./database');
+const {find, insert} = require('./Database');
 
 const studentSchema = new Schema({
     name: {

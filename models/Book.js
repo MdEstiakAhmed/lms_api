@@ -1,5 +1,5 @@
 const { Schema, model} = require('mongoose');
-const {findAll, find, insert, deleteItem, updateData} = require('./database');
+const {findAll, find, insert, deleteItem, updateData} = require('./Database');
 
 const bookSchema = new Schema({
     bookName: {
